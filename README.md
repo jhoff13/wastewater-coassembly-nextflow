@@ -2,6 +2,8 @@
 
 This pipeline was designed to take filtered assemblies and assemble them with different assemblers for analysis with Quast. 
 
+<img width="1130" alt="image" src="https://github.com/jhoff13/wastewater-coassembly-nextflow/assets/84932390/10193ae2-e0e5-42eb-9c9e-428b48cd4ae5">
+
 ### Using the workflow:
 To use the workflow you need to
 1) Supply a ref/libraries.csv which can be generated from the git_notebooks/coassembly_csv_formater.ipynb. This is a csv file has the format of **library** refering to the read_file_name_{1/2}.fastq.gz (the read path is defined in the .config under $raw_dir) and the **coassembly** which is a list of all the co-assembly cohorts you want a sample to be a part of.
