@@ -1,8 +1,8 @@
-### Netxtflow Co-assembly Wastewater Pipepline
+## Netxtflow Co-assembly Wastewater Pipepline
 
 This pipeline was designed to take filtered assemblies and assemble them with different assemblers for analysis with Quast. 
 
-## Using the workflow:
+### Using the workflow:
 To use the workflow you need to
 1) Supply a ref/libraries.csv which can be generated from the git_notebooks/coassembly_csv_formater.ipynb. This is a csv file has the format of **library** refering to the read_file_name_{1/2}.fastq.gz (the read path is defined in the .config under $raw_dir) and the **coassembly** which is a list of all the co-assembly cohorts you want a sample to be a part of.
 2) In the nextflow dir run the command below. The --sample_suffix flag specifies what do you want your samples suffix to be, they will use the cohort number label from the **coassembly** tab will also be applied as such: cat_!{cohort}_!{sample_suffix} </br>
@@ -13,8 +13,8 @@ To use the workflow you need to
 
 ![image](https://github.com/jhoff13/wastewater-coassembly-nextflow/assets/84932390/8d5d0106-1b9d-4fc1-acd3-71664ac21941)
 
-## Future Work:
-The trouble was getting Nextflow to interact with the reads stored on S3. I was treating the paths as strings and trying to solve pythonically which was flawed. You need to pass them as paths and use NextFlow (fusion enabled) to handle them.
+### Future Work:
+The trouble was getting Nextflow to concatenate the reads stored on S3. I was treating the paths as strings and trying to solve pythonically which was flawed. You need to pass them as paths and use NextFlow (fusion enabled) to handle them.
 
 Below is a gitpage with a coassembly workflow that could be referenced for future work: 
 
