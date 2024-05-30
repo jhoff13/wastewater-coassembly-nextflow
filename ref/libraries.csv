@@ -1,0 +1,11 @@
+library,coassembly
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530767_bbduk_noribo_{1/2}.fastq.gz,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530766_bbduk_noribo_{1/2}.fastq.gz,"[0, 1, 2, 3, 4, 5, 6, 7, 8]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530765_bbduk_noribo_{1/2}.fastq.gz,"[0, 1, 2, 3, 4, 5, 6, 7]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530764_bbduk_noribo_{1/2}.fastq.gz,"[0, 1, 2, 3, 4, 5, 6]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530763_bbduk_noribo_{1/2}.fastq.gz,"[0, 1, 2, 3, 4, 5]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530762_bbduk_noribo_{1/2}.fastq.gz,"[0, 1, 2, 3, 4]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530881_bbduk_noribo_{1/2}.fastq.gz,"[0, 1, 2, 3]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530880_bbduk_noribo_{1/2}.fastq.gz,"[0, 1, 2]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530772_bbduk_noribo_{1/2}.fastq.gz,"[0, 1]"
+s3://nao-mgs-workflow-scratch/Rothman-PRJNA729801/output-unenriched/preprocess/ribo_initial/SRR14530771_bbduk_noribo_{1/2}.fastq.gz,[0]

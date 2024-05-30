@@ -1,0 +1,2 @@
+Assembly	# contigs (>= 0 bp)	# contigs (>= 1000 bp)	# contigs (>= 2500 bp)	Total length (>= 0 bp)	Total length (>= 1000 bp)	Total length (>= 2500 bp)	# contigs	Largest contig	Total length	GC (%)	N50	N90	auN	L50	L90	# N's per 100 kbp
+final.contigs	31287	2450	337	21105526	7675200	4740437	11168	496706	13462599	52.99	1206	563	48114.4	1588	8623	0.00
